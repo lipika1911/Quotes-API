@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/quotes/random", "dest": "/api/quotes.js" },
+    { "src": "/quotes", "dest": "/api/quotes.js" },
+    { "src": "/", "dest": "/api/quotes.js" }
+  ]
+}
